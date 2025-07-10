@@ -5,8 +5,8 @@
 }
 
 h1{
-    background-color:#112A46;
-    color: white;
+    background-color:rgb(226, 185, 123);
+    color: rgba(41, 3, 3, 0.671);
     font-size: 3rem;
     line-height: 6rem;
     height: 6rem;
@@ -36,7 +36,7 @@ img{
 
 .image:hover{
     cursor: pointer;
-    background-color: #112A46;
+    background-color: rgba(41, 3, 3, 0.671);
 }
 .score-board{
     display: flex;
@@ -45,15 +45,17 @@ img{
     font-size: 3rem;
     gap: 6rem;
     margin-top: 5rem;
+    color: rgba(41, 3, 3, 0.671);
 }
 #user-score,#comp-score{
     font-size: 5rem;
+    color: (226, 185, 123);
 }
 #msg{
     font-size: 3rem;
     border-radius: 1rem;
-    background-color: #112A46;
-    color: whitesmoke;
+    background-color: rgb(226, 185, 123);
+    color: rgba(41, 3, 3, 0.671);
     display: inline;
     padding: 1rem;
 }
@@ -65,10 +67,11 @@ img{
 #reset-game{
     font-size: 1rem;
     border-radius: 1rem;
-    background-color: #112A46;
-    color: whitesmoke;
+    background-color: rgb(226, 185, 123);
+    color: rgba(41, 3, 3, 0.671);
     display: inline;
     padding: 1rem;
+    border: none;
 }
 
 .button{

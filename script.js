@@ -17,12 +17,12 @@ const getCompChoice=()=>{
 const drawGame=()=>{
     drawCount++;
     if(drawCount>1){
-        allMessage.innerText=`Draw Again. Play again.`
+        allMessage.innerText=`Draw Again ${drawCount} times. Play again.`
     }
     else{
         allMessage.innerText=`Draw Match. Play again!`
     }
-    allMessage.style.background="purple";
+    allMessage.style.background="rgb(226, 185, 123)";
 }
 
 
@@ -32,6 +32,7 @@ const showWinner=(userWin,userChoice,compChoice)=>{
         UserScoring.innerText=user_score;
         allMessage.innerText=`You win! Your ${userChoice} beats ${compChoice}`;
         allMessage.style.background= "green";
+        allMessage.style.color="white"
     }
     else{
         comp_score++;
@@ -77,7 +78,8 @@ reset_button.addEventListener("click",()=>{
     UserScoring.innerText=user_score;
     compScoring.innerText=comp_score;
     allMessage.innerText=`Game Start`;
-    allMessage.style.background= " #112A46";
+    allMessage.style.background= " rgb(226, 185, 123)";
+    allMessage.style.color="rgba(41, 3, 3, 0.671)"
 
 });
 
